@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<placesticker id="1" name="103PlaceSticker" x="80" y ="20" floor="1F" />
+	<placesticker id="table" name="065PlaceSticker" x="180" y ="20" floor="1F" />
+	<placesticker id="2" name="061PlaceSticker" x="180" y ="120" floor="1F" />
+	<placesticker id="3" name="099PlaceSticker" x="80" y ="120" floor="1F" />
+	<!-- <placesticker id="4" name="127PlaceSticker" x="80" y ="120" floor="1F" />
+	<placesticker id="5" name="129PlaceSticker" x="80" y ="120" floor="1F" />-->
+</config>

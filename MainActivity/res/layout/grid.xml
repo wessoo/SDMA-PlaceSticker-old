@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bkgnd"
+    android:padding="10dp" >
+
+    <ImageView
+        android:contentDescription="@string/desc"
+        android:id="@+id/grid_item_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="10dp" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/grid_item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/grid_item_image"
+        android:layout_marginTop="31dp"
+        android:layout_toRightOf="@+id/grid_item_image"
+        android:text="@+id/label"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/grid_item_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/grid_item_label"
+        android:layout_below="@+id/grid_item_label"
+        android:layout_marginTop="24dp"
+        android:text="@+id/author"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/grid_item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/grid_item_image"
+        android:layout_alignTop="@+id/grid_item_image"
+        android:text="@+id/number" />
+
+</RelativeLayout>

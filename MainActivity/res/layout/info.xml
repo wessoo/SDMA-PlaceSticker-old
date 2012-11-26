@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingLeft="0dp"
+	android:paddingRight="0dp" >
+
+	<Button
+		android:id="@+id/back"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:text="@string/back" />
+
+	<TextView
+		android:id="@+id/infoTitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="16dp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/infoAuthor"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/infoTitle"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="14dp" />
+
+	<TextView
+		android:id="@+id/infoBlank"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/infoAuthor"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="14dp" />
+
+	<ScrollView
+		android:id="@+id/scrollbar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/back"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/infoBlank" >
+
+		<TextView
+			android:id="@+id/infoDesc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textSize="14dp" />
+	</ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobile Gallery</string>
+	<string name="ready">Start Tour</string>
+	<string name="updateList">Update Tour List</string>
+	<string name="connect">Start Selection</string><string name="reset">Select your Art Tour Again</string>
+	<string name="demo">name</string>
+	<string name="desc">List of art works</string>
+	<string name="prompt">Please select your artworks on the touch table.</string>
+	<string name="welcome">Welcome to SDMA\nPlease start your tour</string>
+	<string name="back">Back</string>
+	<string name="more">More</string>
+	
+</resources>
