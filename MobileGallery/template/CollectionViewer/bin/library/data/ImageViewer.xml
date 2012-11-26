@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ImageViewer>
+
+	<Content><!-- Sets the file path and metadata to local media to populate image objects -->
+		
+		<Source id="1" >
+			<imgIndex>1</imgIndex>
+			<url>library/thumbnail/01.jpg</url>
+		</Source>
+		
+		<Source id="2" >
+			<imgIndex>2</imgIndex>
+			<url>library/thumbnail/02.jpg</url>
+		</Source>
+		
+		<Source id="3" >
+			<imgIndex>3</imgIndex>
+			<url>library/thumbnail/03.jpg</url>
+		</Source>
+
+		<Source id="4" >
+			<imgIndex>4</imgIndex>
+			<url>library/thumbnail/04.jpg</url>
+		</Source>
+
+		<Source id="5" >
+			<imgIndex>5</imgIndex>
+			<url>library/thumbnail/05.jpg</url>
+		</Source>
+
+		<Source id="6" >
+			<imgIndex>6</imgIndex>
+			<url>library/thumbnail/06.jpg</url>
+		</Source>
+
+		<Source id="7" >
+			<imgIndex>7</imgIndex>
+			<url>library/thumbnail/07.jpg</url>
+		</Source>
+
+		<Source id="8" >
+			<imgIndex>8</imgIndex>
+			<url>library/thumbnail/08.jpg</url>
+		</Source>
+
+		<Source id="9" >
+			<imgIndex>9</imgIndex>
+			<url>library/thumbnail/09.jpg</url>
+		</Source>
+
+		<Source id="10" >
+			<imgIndex>10</imgIndex>
+			<url>library/thumbnail/10.jpg</url>
+		</Source>
+
+		<Source id="11" >
+			<imgIndex>11</imgIndex>
+			<url>library/thumbnail/11.jpg</url>
+		</Source>
+
+		<Source id="12" >
+			<imgIndex>12</imgIndex>
+			<url>library/thumbnail/12.jpg</url>
+		</Source>
+		<Source id="13" >
+			<imgIndex>13</imgIndex>
+			<url>library/thumbnail/13.jpg</url>
+		</Source>
+		<Source id="14" >
+			<imgIndex>14</imgIndex>
+			<url>library/thumbnail/14.jpg</url>
+		</Source>
+		<Source id="15" >
+			<imgIndex>15</imgIndex>
+			<url>library/thumbnail/15.jpg</url>
+		</Source>
+		<Source id="16" >
+			<imgIndex>16</imgIndex>
+			<url>library/thumbnail/16.jpg</url>
+		</Source>
+		<Source id="17" >
+			<imgIndex>17</imgIndex>
+			<url>library/thumbnail/17.jpg</url>
+		</Source>
+		<Source id="18" >
+			<imgIndex>18</imgIndex>
+			<url>library/thumbnail/18.jpg</url>
+		</Source>
+		<Source id="19" >
+			<imgIndex>19</imgIndex>
+			<url>library/thumbnail/19.jpg</url>
+		</Source>
+		<Source id="20" >
+			<imgIndex>20</imgIndex>
+			<url>library/thumbnail/20.jpg</url>
+		</Source>
+		<Source id="21" >
+			<imgIndex>21</imgIndex>
+			<url>library/thumbnail/21.jpg</url>
+		</Source>
+		<Source id="22" >
+			<imgIndex>22</imgIndex>
+			<url>library/thumbnail/22.jpg</url>
+		</Source>
+		<Source id="23" >
+			<imgIndex>23</imgIndex>
+			<url>library/thumbnail/23.jpg</url>
+		</Source>
+		<Source id="24" >
+			<imgIndex>24</imgIndex>
+			<url>library/thumbnail/24.jpg</url>
+		</Source>
+		<Source id="25" >
+			<imgIndex>25</imgIndex>
+			<url>library/thumbnail/25.jpg</url>
+		</Source>
+	</Content>
+
+	<GlobalSettings><!-- Sets the initial, min and max scale values for the video objects. !!Important: Either <scale> or <imagesNormalize> should be used. Not both !! -->
+			<!-- <scale></scale> --><!-- Sets the images's full size (the size at which the control buttons appear) as relative to the images's actual size. So, for instance, if an image is 500px x 400px, setting <scale> to 1 would mean its full size equals its actual size. Setting scale to 2 would make it twice as large. -->
+		
+		<amountToShow>25</amountToShow>
+		
+		<globalScale>1</globalScale><!-- The size images start at before they are double-tapped or zoomed to their full size, which is the size at which the control buttons appear. This variable modulates either <scale> or <imageNormalize>, depending on whether the user wants to set the full size relative to the actual size or as an absolute value-->
+		<imagesNormalize>190</imagesNormalize><!-- Sets the full size as an absolute pixel width; the height of the images are adjusted accordingly -->
+		<maxScale>2.5</maxScale><!-- The maximum size the images can zoom to, set relative to their full size within the application (set by <scale> or <imagesNormalize>). For instance, setting maxScale to 2.5 will allow the user to zoom the videos to 2.5 times their full size. -->
+		<minScale>.5</minScale><!-- The minimum size the images can zoom to, set relative to their full size within the application (set by <scale> or <imagesNormalize>). For instance, setting minScale to .5 will allow the user to shrink the images to half their full size. -->
+		<infoPadding>100</infoPadding><!-- Sets the padding around the description information when the info button is selected, and the spacing between the thumbnail, the main description box, and author info. -->
+	</GlobalSettings>
+	
+	<BackgroundGraphic><!-- Sets the application background to be either a solid color (if only <fillColor1> is given a value) or a two-color horizontal gradient (if both color values are filled in).   -->
+		<fillColor1>0xFFFFFF</fillColor1>
+		<fillColor2>0xCCCCCC</fillColor2>
+	</BackgroundGraphic>
+	
+	<BackgroundOutline><!-- Sets the style of the outline that surrounds each image object -->
+		<outlineColor>0xFFFFFF</outlineColor><!-- Sets the color of the outline surrounding each image object. -->
+		<outlineStroke>1</outlineStroke><!-- Sets the width of the border around each image object in pixels -->
+	</BackgroundOutline>
+		
+	<InfoText><!-- Sets the font size and color for each metadata field. -->
+		<TitleText>
+			<fontColor>0x000000</fontColor>
+			<fontSize>16</fontSize>
+		</TitleText>
+		<DescriptionText>
+			<fontColor>0x000000</fontColor>
+			<fontSize>14</fontSize>
+		</DescriptionText>
+		<AuthorText>
+			<fontColor>0x222222</fontColor>
+			<fontSize>12</fontSize>
+		</AuthorText>
+		<PublishText>
+			<fontColor>0x333333</fontColor>
+			<fontSize>11</fontSize>
+		</PublishText>
+	</InfoText>
+	
+</ImageViewer>
